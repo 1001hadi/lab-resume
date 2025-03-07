@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+/* top section style */
+.header-section {
+  display: flex;
+  flex-wrap: wrap;
+  height: 30vh;
+}
+
+.box {
+  border: 1px solid teal;
+}
+
+#display {
+  flex-grow: 4;
+  display: flex;
+}
+#info {
+  flex-grow: 2;
+}
+.about-me {
+}
+
+/* Main section style */
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 70vh;
+}
+
+#experiences {
+  flex-grow: 4;
+}
+#skills {
+  flex-grow: 2;
+}
